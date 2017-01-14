@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/handle/handle",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的习惯",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "iconPath":"",
+    "selectedColor":"#1AAD16",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "习惯",
+      "iconPath":"",
+      "selectedIconPath":""
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "发现",
+      "iconPath":"",
+      "selectedIconPath":""
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "消息",
+      "iconPath":"",
+      "selectedIconPath":""
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath":"",
+      "selectedIconPath":""
+    }]
+  }
+}

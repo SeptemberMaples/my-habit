@@ -1,0 +1,21 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+page{
+  background-color: #f4f4f4;
+}
+
+/* flex 布局*/
+.weui-flex__column{
+  flex-direction: column;
+}
+.weui-flex__center{
+  align-items: center;
+}
+
+/* 单行文字，超出显示...*/
+.text-over{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
