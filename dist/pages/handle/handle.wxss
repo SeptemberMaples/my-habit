@@ -10,8 +10,14 @@
 .header-circle {
   position: relative;
   margin: 0 auto;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 2rem;
-  border: 5px solid red;
-  box-sizing: border-box; }
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 2.2rem;
+  box-sizing: border-box;
+  background-color: #eee; }
+  .header-circle .icon-s {
+    margin: 13px auto 0; }
+  .header-circle:hover {
+    background-color: #ddd; }
+  .header-circle.header-circle_ed {
+    background-color: #48c23d; }

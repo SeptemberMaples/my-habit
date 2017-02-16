@@ -2,28 +2,28 @@
 <view class="container">
   <!--item-->
   <view class="cells weui-flex weui-flex__center" hover-class="hover" bindtap="gotoHandle">
-    <image mode="scaleToFill" src="../../static/tem/cb.png"></image>
+    <image mode="scaleToFill" src="../../static/cb.png"></image>
     <view class="weui-flex__item">
       <text class="cells-title">每天读书一小时</text>
-      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
+      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
     </view>
   </view>
   <!--item end-->
   <!--item-->
   <view class="cells weui-flex weui-flex__center" hover-class="hover">
-    <image mode="scaleToFill" src="../../static/tem/cb.png"></image>
+    <image mode="scaleToFill" src="../../static/cb.png"></image>
     <view class="weui-flex__item">
       <text class="cells-title">每天读书一小时</text>
-      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
+      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
     </view>
   </view>
   <!--item end-->
   <!--item-->
   <view class="cells weui-flex weui-flex__center" hover-class="hover">
-    <image mode="scaleToFill" src="../../static/tem/cb.png"></image>
+    <image mode="scaleToFill" src="../../static/cb.png"></image>
     <view class="weui-flex__item">
       <text class="cells-title">每天读书一小时</text>
-      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
+      <icon type="waiting_circle" size="14" color="#999"></icon><text class="cells-desc">已坚持 45 天</text>
     </view>
   </view>
   <!--item end-->

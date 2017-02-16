@@ -4,7 +4,9 @@
 <view class="">
     <!--打卡-->
     <view class="header">
-        <view class="header-circle"></view>
+        <view class="header-circle {{isSign ? 'header-circle_ed' : ''}}">
+          <icon type="success_no_circle" bindtap="signIn" class="icon-s" color="white" size="{{iconSize}}"/>
+        </view>
         <text>已坚持 4 天，加油！</text>
     </view>
 </view>

@@ -1,3 +1,5 @@
+@import '../../style/color';
+
 /*打卡*/
 .header{
     padding: 10px;
@@ -9,9 +11,19 @@
 .header-circle{
     position: relative;
     margin: 0 auto;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 2rem;
-    border: 5px solid red;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 2.2rem;
+    // border: 5px solid transparent;
     box-sizing: border-box;
+    background-color: #eee;
+    .icon-s{
+        margin: 13px auto 0;
+    }
+    &:hover{
+        background-color: #ddd;
+    }
+    &.header-circle_ed{
+        background-color: $color-green;
+    }
 }
